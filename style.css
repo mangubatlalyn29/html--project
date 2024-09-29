@@ -1,0 +1,78 @@
+/* 
+#624E88 - background color
+#8967B3 - sections/ divs
+#CB80AB - borders
+#E6D9A2 - text-color
+
+*/
+
+body{
+    background-color: #624E88;
+    color:#E6D9A2;
+}
+
+
+a{
+    color: #CB80AB;
+}
+
+.box p, .box li, .box ul, .box ol{
+    font-size: 20px;
+}
+
+/* fonts */
+.monoton{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sofadi{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* title styles */
+.title{
+    text-align: center;
+    color: #E6D9A2;
+}
+
+.home-button{
+    width: max-content;
+    padding: 5px;
+    border: 2px solid #CB80AB;
+    background-color: #8967B3;
+}
+
+.home-button a{
+    color:#E6D9A2;
+    font-size: 120%;
+    margin-left: 5px;
+}
+
+.footer{
+    font-size: 80%;
+}
+
+.box{
+    border: 5px solid #CB80AB;
+    background-color: #8967B3;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.box-right{
+    border: 5px solid #CB80AB;
+    background-color: #8967B3;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+
+
+  
