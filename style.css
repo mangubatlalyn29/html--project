@@ -20,6 +20,7 @@ a{
     font-size: 20px;
 }
 
+
 /* fonts */
 .monoton{
     font-family: "Monoton", sans-serif;
@@ -36,7 +37,7 @@ a{
 /* title styles */
 .title{
     text-align: center;
-    color: #E6D9A2;
+    color: inherit;
 }
 
 .home-button{
@@ -63,17 +64,18 @@ a{
     padding: 10px;
 }
 
-.box-right{
-    border: 5px solid #CB80AB;
-    background-color: #8967B3;
+.box-2{
+    border: 5px solid #8967B3;
+    background-color: #CB80AB;
+    color:#624E88;
     margin: 10px 5px;
-    padding: 10px;
-    text-align: right;
+    padding: 15px;
 }
+
+
 
 .image{
     text-align: center;
-    
 }
 
 .image img{
