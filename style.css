@@ -47,10 +47,9 @@ a{
     background-color: #8967B3;
 }
 
-.home-button:hover{
+.home-button:hover a, .home-button:hover{
     color:#8967B3;
     background-color: #E6D9A2;
-    border: 2px solid #E6D9A2;
 }
 
 .home-button a{
@@ -64,7 +63,7 @@ a{
 }
 
 .footer a:hover{
-    color: rgba(203, 128, 171, 0.616);
+    color: #8967B3;
 }
 
 .box{
@@ -74,6 +73,9 @@ a{
     padding: 10px;
 }
 
+.box a:hover{
+    color: #624E88;
+}
 .box-2{
     border: 5px solid #8967B3;
     background-color: #CB80AB;
