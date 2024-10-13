@@ -84,16 +84,29 @@ a{
     padding: 15px;
 }
 
-
-
 .image{
     text-align: center;
 }
 
 .image img{
     border: 2px solid #E6D9A2;
+    width: 250px;
+    height: 250px;
+
 }
 
+.img-box img{
+    width: 250px;
+    height:250px;
+}
+
+.img-box{
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+    width: 250px;
+    height: 250px;
+}
 
 
 
