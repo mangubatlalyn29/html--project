@@ -88,7 +88,7 @@ a{
     border: 5px solid #CB80AB;
     background-color: #8967B3;
     margin: 10px 5px;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .box a:hover{
@@ -99,7 +99,7 @@ a{
     background-color: #CB80AB;
     color:#624E88;
     margin: 10px 5px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .image{
@@ -119,6 +119,7 @@ a{
 }
 
 .img-box{
+   
     text-align: center;
     display: inline-block;
     margin-right: 5px;
@@ -129,8 +130,9 @@ a{
 }
 
 ul.img-box-container{
-    
+    transform: translate(0%, 10%);
     display: flex;
+    justify-content: center;
 }
 
 
