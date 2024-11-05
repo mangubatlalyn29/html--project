@@ -129,9 +129,10 @@ a{
 }
 
 ul.img-box-container{
-    transform: translate(0%, 10%);
+    transform: translate(-2.2%, 10%);
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 
 
