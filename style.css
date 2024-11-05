@@ -123,16 +123,9 @@ a{
     display: inline-block;
     margin-right: 5px;
     width: 250px;
-    height: 250px;
+    height: 500px;
     align-items: center;
     justify-content: center;
-}
-
-ul .img-box{
-
-    display: inline-block;
-    height: 500px;
-    
 }
 
 ul.img-box-container{
