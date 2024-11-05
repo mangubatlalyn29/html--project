@@ -123,9 +123,14 @@ a{
     display: inline-block;
     margin-right: 5px;
     width: 250px;
-    height: 250px;
+    height: 500px;
     align-items: center;
     justify-content: center;
+}
+
+ul.img-box-container{
+    
+    display: flex;
 }
 
 
