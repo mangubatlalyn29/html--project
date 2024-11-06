@@ -16,6 +16,7 @@ a{
     color: #CB80AB;
 }
 
+
 .box p, .box li, .box ul, .box ol{
     font-size: 20px;
 }
@@ -38,8 +39,8 @@ a{
 .title{
     text-align: center;
     color: inherit;
+    letter-spacing: 0.5rem;
 }
-
 .home-button{
     width: max-content;
     padding: 5px;
@@ -94,13 +95,7 @@ a{
 .box a:hover{
     color: #624E88;
 }
-.box-2{
-    border: 5px solid #8967B3;
-    background-color: #CB80AB;
-    color:#624E88;
-    margin: 10px 5px;
-    padding: 5px;
-}
+
 
 .image{
     text-align: center;
@@ -135,7 +130,37 @@ ul.img-box-container{
     justify-content: space-around;
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+    list-style-position: inside;
+}
 
+.box-2{
+    border: 5px solid #8967B3;
+    background-color: #CB80AB;
+    color:#624E88;
+    padding: 1rem;
+}
 
+.button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+    justify-content: center;
+}
 
-  
+.button{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #E6D9A2;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border: 2px solid #E6D9A2;
+    width:40%;
+}
