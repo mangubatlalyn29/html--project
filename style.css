@@ -164,3 +164,22 @@ ul.img-box-container{
     border: 2px solid #E6D9A2;
     width:40%;
 }
+.page-turn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.next-page-btn{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid #CB80AB;
+    border-radius: 50px;
+    padding: 0.5rem 5rem;
+    transition: 0.5s ease;
+    letter-spacing: 0.25rem;
+}
+
+.next-page-btn:hover{
+    background-color: #E6D9A2;
+    color: #8967B3;
+}
