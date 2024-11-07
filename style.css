@@ -6,180 +6,216 @@
 
 */
 
-body{
-    background-color: #624E88;
-    color:#E6D9A2;
+body {
+  background-color: #624e88;
+  color: #e6d9a2;
 }
 
-
-a{
-    color: #CB80AB;
+a {
+  color: #cb80ab;
 }
 
-
-.box p, .box li, .box ul, .box ol{
-    font-size: 20px;
+.box p,
+.box li,
+.box ul,
+.box ol {
+  font-size: 20px;
 }
-
 
 /* fonts */
-.monoton{
-    font-family: "Monoton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.monoton {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-.sofadi{
-    font-family: "Sofadi One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+.sofadi {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* title styles */
-.title{
-    text-align: center;
-    color: inherit;
-    letter-spacing: 0.5rem;
+.title {
+  text-align: center;
+  color: inherit;
+  letter-spacing: 0.5rem;
 }
-.home-button{
-    width: max-content;
-    padding: 5px;
-    border: 2px solid #CB80AB;
-    background-color: #8967B3;
-}
-
-.home-button:hover a, .home-button:hover{
-    color:#8967B3;
-    background-color: #E6D9A2;
+.home-button {
+  width: max-content;
+  padding: 5px;
+  border: 2px solid #cb80ab;
+  background-color: #8967b3;
 }
 
-.home-button a{
-    color:#E6D9A2;
-    font-size: 120%;
-    margin-left: 5px;
+.home-button:hover a,
+.home-button:hover {
+  color: #8967b3;
+  background-color: #e6d9a2;
 }
 
-.footer{
-    font-size: 80%;
+.home-button a {
+  color: #e6d9a2;
+  font-size: 120%;
+  margin-left: 5px;
 }
 
-.footer a:hover{
-    color: #8967B3;
+.footer {
+  font-size: 80%;
 }
 
-.footer-box{
-    background-color: #CB80AB;
-    border:2px solid #8967B3;
-    padding: 5px 15px;
-    float: right;
-    width: 45%;
-    height: 200px;
-    margin:0px;
-    font-size: 15px;
+.footer a:hover {
+  color: #8967b3;
 }
 
-.footer-box a{
-    color:#624E88;
-}
-.footer-box a:hover{
-    color: #8967B3;
-}
-
-.box{
-    border: 5px solid #CB80AB;
-    background-color: #8967B3;
-    margin: 10px 5px;
-    padding: 1rem;
+.footer-box {
+  background-color: #cb80ab;
+  border: 2px solid #8967b3;
+  padding: 5px 15px;
+  float: right;
+  width: 45%;
+  height: 200px;
+  margin: 0px;
+  font-size: 15px;
 }
 
-.box a:hover{
-    color: #624E88;
+.footer-box a {
+  color: #624e88;
+}
+.footer-box a:hover {
+  color: #8967b3;
 }
 
-
-.image{
-    text-align: center;
+.box {
+  border: 5px solid #cb80ab;
+  background-color: #8967b3;
+  margin: 10px 5px;
+  padding: 1rem;
 }
 
-.image img{
-    border: 2px solid #E6D9A2;
-    width: 250px;
-    height: 250px;
-
+.box a:hover {
+  color: #624e88;
 }
 
-.img-box img{
-    width: 250px;
-    height:250px;
+.image {
+  text-align: center;
 }
 
-.img-box{
-    /* text-align: center; */
-    display: inline-block;
-    margin-right: 5px;
-    width: 250px;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
+.image a {
+  display: inline-block;
+  position: relative;
 }
 
-ul.img-box-container{
-    transform: translate(-2.2%, 10%);
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+.image a .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #cb80ab;
+  color: #e6d9a2;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  top: 40%;
+  left: 105%;
+  z-index: 1;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding:0;
-    margin: 0;
-    list-style-position: inside;
+.tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #cb80ab transparent transparent;
 }
 
-.box-2{
-    border: 5px solid #8967B3;
-    background-color: #CB80AB;
-    color:#624E88;
-    padding: 1rem;
+.image:hover a .tooltip {
+  visibility: visible;
 }
 
-.button-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem 3rem;
-    justify-content: center;
+.image img {
+  border: 2px solid #e6d9a2;
+  width: 250px;
+  height: 250px;
 }
 
-.button{
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #E6D9A2;
-    padding: 1rem 3rem;
-    border-radius: 50px;
-    border: 2px solid #E6D9A2;
-    width:40%;
-}
-.page-turn{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-}
-.next-page-btn{
-    font-size: 1rem;
-    text-decoration: none;
-    border: 2px solid #CB80AB;
-    border-radius: 50px;
-    padding: 0.5rem 5rem;
-    transition: 0.5s ease;
-    letter-spacing: 0.25rem;
+.img-box img {
+  width: 250px;
+  height: 250px;
 }
 
-.next-page-btn:hover{
-    background-color: #E6D9A2;
-    color: #8967B3;
+.img-box {
+  /* text-align: center; */
+  display: inline-block;
+  margin-right: 5px;
+  width: 250px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.img-box-container {
+  transform: translate(-2.2%, 10%);
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+.box-2 {
+  border: 5px solid #8967b3;
+  background-color: #cb80ab;
+  color: #624e88;
+  padding: 1rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e6d9a2;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  border: 2px solid #e6d9a2;
+  width: 40%;
+}
+.page-turn {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.next-page-btn {
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid #cb80ab;
+  border-radius: 50px;
+  padding: 0.5rem 5rem;
+  transition: 0.5s ease;
+  letter-spacing: 0.25rem;
+}
+
+.next-page-btn:hover {
+  background-color: #e6d9a2;
+  color: #8967b3;
 }
