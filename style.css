@@ -108,7 +108,7 @@ a {
 
 .image a .tooltip {
   visibility: hidden;
-  width: 120px;
+  width: 200px;
   background-color: #cb80ab;
   color: #e6d9a2;
   text-align: center;
@@ -134,8 +134,9 @@ a {
   border-color: transparent #cb80ab transparent transparent;
 }
 
-.image:hover a .tooltip {
+.image a:hover .tooltip {
   visibility: visible;
+  
 }
 
 .image img {
