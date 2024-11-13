@@ -243,6 +243,7 @@ ul.img-box-container {
 
 .story:hover{
   box-shadow: 0 0 10px 1px #f1f1f1;
+  transform: scale(105%);
 }
 
 .story img{
