@@ -177,7 +177,6 @@ a {
 ul.img-box-container {
   display: flex;
   width: 90%;
-  justify-content: center;
   justify-content: space-around;
 }
 
@@ -193,6 +192,8 @@ ul.img-box-container li {
   border-radius: 10px;
   background-color: #cb80ab;
   text-align: center;
+  box-shadow: 0 0 10px 3px #624e88;
+
 }
 
 p {
@@ -359,3 +360,4 @@ ul.img-box-container > li > img:hover {
   padding: 10px;
   font-size: 1.5rem !important;
 }
+
