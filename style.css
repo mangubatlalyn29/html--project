@@ -177,8 +177,38 @@ a {
 
 ul.img-box-container {
   display: flex;
+  width: 90%;
   justify-content: center;
   justify-content: space-around;
+}
+
+ul.img-box-container li{
+  width: 250px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 70px;
+  margin:10px 0px;
+  padding:10px;
+  border-radius: 10px;
+  background-color: #cb80ab;
+  text-align: center;
+}
+
+p{
+  font-size: 1rem;
+  text-shadow: 1px 1px #414141;
+}
+
+ul.img-box-container >li> img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+ul.img-box-container >li> img:hover{
+  transform: scale(110%);
 }
 
 .container {
@@ -260,7 +290,7 @@ ul.img-box-container {
   transform: scale(105%);
 }
 
-.story img{
+.story > img{
   width: 400px;
   height: 250px;
   border-radius: 10px 10px 0 0 ;
