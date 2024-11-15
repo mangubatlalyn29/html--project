@@ -1,29 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABOUT ME</title>
     <!-- monoton font -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-  <!-- sofadi font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+    <!-- sofadi font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/d972c1f784.js" crossorigin="anonymous"></script>
+    <style>
+        .dev-contain {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .dev {
+            
+            padding:20px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            gap: 4rem;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #8967b3;
+            border-radius: 20px;
+            box-shadow: 0 0 5px 3px #cb80ab;
+        }
+        .dev img {
+            margin-left:20px;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 0 0 5px 3px #cb80ab;
+        }
+
+        .dev p{
+            font-size: 1.3rem;
+        }
+        .dev i{
+            font-size: 1.5rem;
+            transition: 0.3s ease;
+            margin-right:10px;
+        }
+        .dev i:hover{
+            color: #f1f1f1;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to Rose Spectrum!</h1>
-    <p>Hello, I'm Lalyn L. Mangubat, an 18-year-old first-year college student at the University of Cebu Main Campus, currently pursuing a Bachelor of Science in Information Technology. Outside of academics, I find joy in drawing, painting, and creating arts and crafts at home.
+    <h1 class="monoton title">Welcome to Rose Spectrum</h1>
+    <!-- homebutton -->
+    <div class="monoton home-button">
+        <img src="home.png" alt="home icon" /> <a href="index.html">Home</a>
+    </div>
+    <hr />
 
-        I'm also deeply fascinated by the beauty, history, and science of roses. This website is my space to share my journey as I explore the incredible variety and stories behind roses—from rare species to the colors and unique meanings each rose holds.
-    </p>
+    <div class="dev-contain sofadi">
+        <div class="dev">
+            <div class="div-image-contain">
+            <img src="./me.jpeg" alt="" />
+            </div>
+            <div class="dev-details">
+                <div class="detail-text">
+                    <h2>Hello, I'm Lalyn L. Mangubat</h2>
+                    <p>
+                        I am an 18-year-old first-year college student at the University
+                        of Cebu Main Campus, currently pursuing a Bachelor of Science in
+                        Information Technology. Outside of academics, I find joy in
+                        drawing, painting, and creating arts and crafts at home. I'm also
+                        deeply fascinated by the beauty, history, and science of roses.
+                        This website is my space to share my journey as I explore the
+                        incredible variety and stories behind roses—from rare species to
+                        the colors and unique meanings each rose holds.
+                    </p>
 
-    <p>I created this website not just because of a love for flowers, but because there's a special someone in my life who reminds me of roses. Their presence, like a rose, is both beautiful and meaningful, inspiring me to look deeper into the world of roses and what they symbolize.</p>
+                    <p>
+                        I created this website not just because of a love for flowers, but
+                        because there's a special someone in my life who reminds me of
+                        roses. Their presence, like a rose, is both beautiful and
+                        meaningful, inspiring me to look deeper into the world of roses
+                        and what they symbolize.
+                    </p>
 
-    <p>Thank you for joining me on this journey through the "spectrum" of roses!</p>
+                    <p>
+                        Thank you for joining me on this journey through the "spectrum" of
+                        roses!
+                    </p>
+                </div>
+                <div class="detail-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.discord.com"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
